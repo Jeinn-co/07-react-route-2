@@ -1,11 +1,9 @@
 - **Git remote 指令**
 ```
+git clone https://github.com/Jeinn-co/vite-husky-ts vite-codebase
 git remote -v
-
 git remote set-url origin <新的 Git URL>
-
 git remote remove origin
-
 
 ```
 

@@ -1,26 +1,12 @@
-// import { useState } from 'react';
-// import reactLogo from './assets/react.svg';
-// import viteLogo from '/vite.svg';
 import './App.css';
+// import { DemoCode } from './components/Demo';
+import { DemoCode2 } from './components/Demo2';
 
 function App() {
-  // const [count, setCount] = useState(0);
-
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        rowGap: '30px',
-      }}
-    >
-      <h2>Vite app </h2>
-      <button>Button</button>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          link{' '}
-        </a>
-      </div>
+    <div>
+      {/* <DemoCode /> */}
+      <DemoCode2 />
     </div>
   );
 }
